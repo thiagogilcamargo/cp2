@@ -1,0 +1,62 @@
+/* Estilos para a seção de conteúdo */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    /* Estilos para os cards */
+    .card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    }
+    
+    /* Estilos para as imagens dos cards */
+    .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para as legendas das imagens dos cards */
+    .card figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+    }
+    
+    /* Estilos para o rodapé */
+    footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    }
+    
+    /* Estilos para o menu de redes sociais */
+    footer nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    footer li {
+    margin-right: 20px;
+    }
+    
+    footer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    footer a:hover {
+    text-decoration: underline;
+    }
