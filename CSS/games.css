@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .cabecalho img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cabecalho nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho nav li {
+    margin-right: 50px;
+  }
+  
+  .cabecalho nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .cabecalho nav li:last-child {
+    margin-right: 500px;
+  }
+  
+  .cabecalho nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  body {
+    background-image: url("https://images2.alphacoders.com/106/1064201.png");
+    background-size: cover;
+  }
+
+#banner {
+    background-image: url("https://cdn.wccftech.com/wp-content/uploads/2021/07/playstation-studios-nixxes.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    margin-bottom: 30px; 
+}
+
+.cards-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 0;
+    margin: 0 auto;
+}
+
+.card {
+    width: 5    00px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-1, .banner-2, .banner-3 {
+  height: 600px;
+  width: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  margin: auto; 
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+.button {
+    padding: 50px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #333333;
+}
+
+.banner-1, .banner-2, .banner-3 {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-1 {
+    background-image: url("https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png");
+}
+
+.banner-2 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png");
+}
+
+.banner-3 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202008/0723/i2ICFMr0Ius6qtYYD9GNrY68.jpg");
+}
+
+.banner-1, .banner-2, .banner-3 {
+    height: 600px; 
+    width: 70%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px; 
+    
+  }
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.text h1 {
+    margin-top: 0;
+}
+
+.text button {
+    margin-top: 10px;
+}
+
+  
+  
+  
+  
+  
+   .rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+    
+  }
+  
+  .rodape h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .rodape nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .rodape nav li {
+    margin-right: 10px;
+  }
+  
+  .rodape nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .rodape nav a img {
+    width: 30px;
+    height: 30px;
+    
+  }
+ 
