@@ -1,122 +1,149 @@
-/* Estilos para o corpo da página */
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  /* Estilos para o cabeçalho */
-  header {
+ /* Estilos para o cabeçalho */
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #262626;
+    background-color: #000000;
+    padding: 10px;
     color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
   }
   
-  /* Estilos para o logotipo */
-  header img {
-    height: 50px;
+  .cabecalho img {
+    width: 100px;
+    height: 100px;
   }
   
-  /* Estilos para o menu de navegação */
-  nav ul {
+  .cabecalho nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  nav li {
-    margin-right: 20px;
+  .cabecalho nav li {
+    margin-right: 50px;
+  }
+
+  .cabecalho nav ul li a:hover {
+    color: #ff0000;
   }
   
-  nav a {
+  .cabecalho nav li:last-child {
+    margin-right: 500px;
+  }
+  
+  .cabecalho nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
   }
   
-  nav a:hover {
-    color: #b3b3b3;
-    text-decoration: none;
-  }
-  
-  /* Estilos para a seção de conteúdo */
-  .content {
+  /* Estilos para o conteúdo principal */
+  .conteudo-principal {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
-    margin: 40px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("https://i.pinimg.com/736x/cc/9e/30/cc9e30d33f93d11591b2b5f27c2eba78.jpg");
   }
   
-  /* Estilos para os cards */
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: calc(33.33% - 20px);
+  .conteudo-principal div {
+    flex-basis: calc(33.33% - 20px);
     margin-bottom: 20px;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .card:hover {
-    transform: translateY(-10px);
+  .conteudo-principal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    color:#fff
   }
   
-  /* Estilos para as imagens dos cards */
-  .card img {
+  .conteudo-principal img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    
+  }
+  
+  .conteudo-principal p {
+    margin-top: 0;
+    color:#fff
+  }
+
+  .conteudo-principal figcaption{
+    font-family:Pacifico;
+    color:whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    background-image:url("https://png.pngtree.com/background/20211217/original/pngtree-game-abstract-green-geometric-pattern-background-picture-image_1596631.jpg") ;
+    padding: 50px;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
-  /* Estilos para as legendas das imagens dos cards */
-  .card figcaption {
-    font-style: italic;
-    font-size: 14px;
-    color: #666;
-    margin-top: 10px;
+  .card {
+    /* estilos padrão para o card */
+    transition: transform 0.2s ease-in-out;
   }
   
+  .card:hover {
+    transform: scale(1.05);
+  }
+   
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
   /* Estilos para o rodapé */
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #262626;
+  .rodape {
+    background-color: #333;
     color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
   }
   
-  /* Estilos para o menu de redes sociais */
-  footer nav ul {
+  .rodape h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .rodape nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  footer li {
-    margin-right: 20px;
+  .rodape nav li {
+    margin-right: 10px;
   }
   
-  footer a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    transition: color 0.3s ease-in-out;
+  .rodape nav li:last-child {
+    margin-right: 0;
   }
   
-  footer a:hover {
-    color: #b3b3b3;
-    text-decoration: none;
+  .rodape nav a img {
+    width: 30px;
+    height: 30px;
+    
   }
-  
