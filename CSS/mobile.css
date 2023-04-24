@@ -90,6 +90,27 @@
     text-align: center;
     padding-bottom: 10px;
   }
+
+  .button {
+    background-color: #aaa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .button:hover {
+    background-color: #999;
+  }
+
+  button:active {
+    background-color: #888;
+    box-shadow: none;
+  }
   
   .card {
     background-image:url("https://i.pinimg.com/550x/fc/04/48/fc0448e79a86f2be784ff8bb36e661de.jpg") ;
