@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   
- /* Estilos para o cabeçalho */
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@
     font-weight: bold;
   }
   
-  /* Estilos para o conteúdo principal */
+  
   .conteudo-principal {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +56,8 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     background-image: url("https://i.pinimg.com/736x/cc/9e/30/cc9e30d33f93d11591b2b5f27c2eba78.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .conteudo-principal div {
@@ -97,7 +99,7 @@
   }
   
   .card {
-    /* estilos padrão para o card */
+   
     transition: transform 0.2s ease-in-out;
   }
   
@@ -110,7 +112,7 @@
     height: 150px;
     object-fit: cover;
   }
-  /* Estilos para o rodapé */
+  
   .rodape {
     background-color: #333;
     color: #fff;
@@ -147,3 +149,57 @@
     height: 30px;
     
   }
+
+/* Estilos para telas com largura máxima de 600px */
+@media (max-width: 600px) {
+  .cabecalho nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: 100%;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
+  .card img {
+    height: 100%;
+  }
+  
+  .rodape nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rodape nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos para telas com largura máxima de 900px */
+@media (max-width: 900px) {
+  .cabecalho nav li:last-child {
+    margin-right: 50px;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: calc(50% - 20px);
+  }
+  
+  .card {
+    padding: 30px;
+  }
+  
+  .rodape nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .rodape nav li {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
