@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ /* Estilos para o cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .cabecalho img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cabecalho nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho nav li {
+    margin-right: 50px;
+  }
+
+  .cabecalho nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .cabecalho nav li:last-child {
+    margin-right: 500px;
+  }
+  
+  .cabecalho nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  .conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("https://c.wallhere.com/photos/c0/32/New_York_City_Time_Square_rain_colorful_lights_car_New_York_Taxi-26664.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .conteudo-principal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    color:#fff
+  }
+  
+  .conteudo-principal img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .conteudo-principal p {
+    margin-top: 0;
+    color:#fff
+  }
+
+  .conteudo-principal figcaption{
+    font-family:Pacifico;
+    color:whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    background-image:url("https://i.pinimg.com/550x/fc/04/48/fc0448e79a86f2be784ff8bb36e661de.jpg") ;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    /* estilos padrão para o card */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+   
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  
+  /* Estilos para o rodapé */
+  .rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  .rodape h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .rodape nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .rodape nav li {
+    margin-right: 10px;
+  }
+  
+  .rodape nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .rodape nav a img {
+    width: 30px;
+    height: 30px;
+    
+  }
