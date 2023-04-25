@@ -1,0 +1,206 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .cabecalho img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cabecalho nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho nav li {
+    margin-right: 50px;
+  }
+
+  .cabecalho nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .cabecalho nav li:last-child {
+    margin-right: 500px;
+  }
+  
+  .cabecalho nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("https://i.pinimg.com/736x/cc/9e/30/cc9e30d33f93d11591b2b5f27c2eba78.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .conteudo-principal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    color:#fff;
+  }
+  
+  .conteudo-principal img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .conteudo-principal p {
+    margin-top: 0;
+    color:#fff;
+    
+  }
+
+  .conteudo-principal figcaption{
+    font-family:Pacifico;
+    color:whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    background-image:url("https://png.pngtree.com/background/20211217/original/pngtree-game-abstract-green-geometric-pattern-background-picture-image_1596631.jpg") ;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+   
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+   
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  .rodape h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .rodape nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .rodape nav li {
+    margin-right: 10px;
+  }
+  
+  .rodape nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .rodape nav a img {
+    width: 30px;
+    height: 30px;
+    
+  }
+
+/* Estilos para telas com largura máxima de 600px */
+@media (max-width: 600px) {
+  .cabecalho nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: 100%;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
+  .card img {
+    height: 100%;
+  }
+  
+  .rodape nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rodape nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos para telas com largura máxima de 900px */
+@media (max-width: 900px) {
+  .cabecalho nav li:last-child {
+    margin-right: 50px;
+  }
+  
+  .conteudo-principal div {
+    flex-basis: calc(50% - 20px);
+  }
+  
+  .card {
+    padding: 30px;
+  }
+  
+  .rodape nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .rodape nav li {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
